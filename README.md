@@ -14,7 +14,7 @@ It is exhausting to check every time on the university page whether the lecturer
 First you need to edit <b>info.yaml</b> file according to your information. Your <b>login id & password</b>, telegram <b>bot token & chat id</b> fields are needed to fill. You can learn how to create a bot and get its token <b>[here](https://core.telegram.org/bots/tutorial)</b>. 
 
 <br>
-After filling yaml file, the only thing to run <b>start.py</b> file:
+After filling yaml file, the only thing is to run <b>start.py</b> file:
 
 ```
 python start.py

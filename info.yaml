@@ -1,0 +1,8 @@
+id: "YOUR ID"
+password: "YOUR PASSWORD"
+
+token: "YOUR TELEGRAM CHATBOT TOKEN VALUE"
+chat_id: "YOUR TELEGRAM CHAT ID"
+
+url: "https://obs.eskisehir.edu.tr/#/"
+interval: 300 # refresh period

@@ -1,9 +1,13 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 
 def initialize(id, password, url):
-    driver = webdriver.Chrome()
+    options = Options()
+    options.add_argument('--headless=new')
+    driver = webdriver.Chrome(options=options)
+
     driver.get(url)
 
     main_button = driver.find_elements(By.CSS_SELECTOR, 'a[role="button"]')[2]
